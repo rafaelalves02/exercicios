@@ -1,0 +1,9 @@
+{
+    "carro":{
+        "marca":"honda",
+        "placa":"MJK-0098",
+        "cor":"azul",
+        "modelo":"fit",
+        "anoFabricacao": 2017
+    }
+}

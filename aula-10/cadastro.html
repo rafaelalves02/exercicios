@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <main>
+        <article>
+            <h1>cadastre-se</h1>
+            <form method="post">
+                <div>
+                    <label for="txtNome">nome:</label>
+                    <input type="text" id="txtNome">
+                </div>
+                <div>
+                    <label for="txtSobrenome">sobrenome:</label>
+                    <input type="text" id="txtSobrenome">
+                </div>
+                <div>
+                    <label for="txtEmail">email:</label>
+                    <input type="email" id="txtEmail">
+                </div>
+                <div>
+                    <label for="txtTel">telefone</label>
+                    <input type="number" id="txtTel">
+                </div>
+                <div>
+                    <label for="txtGenero">genero:</label>
+                    <select name="genero" id="txtGenero">
+                        <optgroup>
+                            <option value="masculino">masculino</option>
+                            <option value="feminino">feminino</option>
+                            <option value="naoInformado">prefiro não dizer</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div>
+                    <label for="txtSenha">senha:</label>
+                    <input type="password" id="txtSenha">
+                </div>
+            </form>
+
+            <button id="btnCadastrar">cadastre-se</button>
+
+            <span id="spnErro" class="erro"></span>
+
+            <p>ja possui conta?<a href="login.html">fazer login</a></p>
+        </article>
+    </main>
+
+    <script src="cadastro.js"></script>
+</body>
+</html>
