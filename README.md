@@ -1,1 +1,1 @@
-Exercicios feitos durante o curso do @renatogava
+Exercicios feitos para praticar HTML, CSS e JavaScript
